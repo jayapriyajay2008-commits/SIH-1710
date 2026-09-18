@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date: 18/09/26
+## Register Number: 212225040144
+## Name: Jayapriya P 
 ## Problem Title
 SIH 1710: Enhancing Navigation for Railway Station Facilities and Locations
 ## Problem Description
@@ -11,16 +11,49 @@ Background: Railway stations are complex environments with numerous facilities a
 Ministry of Railway
 
 ## Idea
+The proposed solution is a **QR-Zone Based Smart Indoor Navigation System with
+Crowd-Aware Routing** for railway stations.
+
+The system helps passengers easily navigate complex station environments by scanning
+QR codes placed at strategic locations such as entrances, platforms, corridors, and
+pillars. Each QR code represents a specific zone inside the station and acts as an
+indoor location marker.
+
+After scanning the QR code, passengers can select their destination (platform,
+restroom, ticket counter, food court, exit, etc.). The system then provides step-by-step
+navigation using the shortest, least crowded, or accessibility-friendly route based on
+user preference.
+
+This solution works across **mobile devices, web browsers, and digital kiosks**, making
+it accessible even to passengers without smartphones.
 
 
 ## Proposed Solution / Architecture Diagram
+The system consists of QR-based location detection, a centralized navigation engine,
+and multiple user interfaces. Real-time crowd information and station layout data are
+used to dynamically generate optimal routes.
 
+Station administrators can update layouts and facility information through an admin
+panel, ensuring navigation accuracy even when station configurations change.
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/8f100afa-bebf-4019-b51a-926f75bba6e6" />
 
 ## Use Cases
-
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/55283314-2695-4f55-900f-7cb1fe4c50c0" />
 
 ## Technology Stack
-
+- **Frontend:** HTML, CSS, JavaScript / React / Flutter
+- **Backend:** Node.js / Firebase
+- **Database:** Cloud-based Station Database
+- **Navigation Logic:** Graph-based routing algorithms
+- **Accessibility:** Text-to-Speech (TTS)
+- **Hardware:** QR Codes, Touchscreen Digital Kiosks
+- **Hosting:** Cloud Infrastructure
 
 ## Dependencies
-
+- QR code generation and scanning libraries
+- Web or mobile framework (React / Flutter)
+- Backend services for route computation
+- Text-to-Speech libraries for voice guidance
+- Cloud database for station layout and facility data
+- Internet connectivity for real-time updates
